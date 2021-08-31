@@ -1,5 +1,6 @@
 <?php
 include_once("database.php");
+echo "shrikar vaitala";
 $postdata = file_get_contents("php://input");
 if(isset($postdata) && !empty($postdata))
 {
